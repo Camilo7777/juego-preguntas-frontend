@@ -1,0 +1,13 @@
+<form *ngIf="pregunta" (ngSubmit)="onSubmit()" class="pregunta-form">
+  <p>Pregunta #  {{puntaje + 1}} {{ pregunta.texto }}</p>
+
+  <mat-radio-group [(ngModel)]="pregunta.respuestaSeleccionada" name="opciones">
+    <div *ngFor="let opcion of [pregunta.respuestaCorrecta, pregunta.respuestaOpcion1, pregunta.respuestaOpcion2, pregunta.respuestaOpcion3]; let i = index"  class="opcion">
+      <mat-radio-button [value]="opcion">
+        {{ opcion }}
+      </mat-radio-button>
+    </div>
+  </mat-radio-group>
+
+  <button mat-raised-button type="submit">Enviar respuesta</button>
+</form>

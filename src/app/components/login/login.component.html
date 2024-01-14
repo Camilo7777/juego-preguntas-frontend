@@ -1,0 +1,8 @@
+<form class="form-container" (ngSubmit)="onSubmit()">
+  <h1>Bienvenido a este maravilloso juego, ingrese su nombre de usuario</h1>
+  <mat-form-field appearance="fill">
+    <mat-label>Nombre de usuario</mat-label>
+    <input matInput [(ngModel)]="nombre" type="text" name="nombre" required>
+  </mat-form-field>
+  <button mat-raised-button type="submit" color="primary">Enviar</button>
+</form>

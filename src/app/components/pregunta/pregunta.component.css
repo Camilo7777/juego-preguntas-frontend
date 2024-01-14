@@ -1,0 +1,35 @@
+.pregunta-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.opcion {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label.correcto {
+  background-color: #8eff8e; /* Verde si es la respuesta correcta */
+}
+
+label.incorrecto {
+  background-color: #ff8e8e; /* Rojo si es la respuesta incorrecta */
+}
+
+
+.mensaje-exito {
+  background-color: #8eff8e; /* Verde para mensajes de éxito */
+  color: #006400;
+}
+
+.mensaje-error {
+  background-color: #ff8e8e; /* Rojo para mensajes de error */
+  color: #8b0000;
+}
