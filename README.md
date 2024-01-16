@@ -1,27 +1,37 @@
-# JuegoPreguntasFrontend
+# Juego de Preguntas - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+¡Bienvenido al frontend de la aplicación de juego de preguntas! Este proyecto está desarrollado en Angular y se conecta con los endpoints proporcionados por la parte trasera, implementada en Spring Boot.
 
-## Development server
+## Descripción del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El objetivo de este proyecto es ofrecer una experiencia interactiva y atractiva para un juego de preguntas. La interfaz de usuario está desarrollada utilizando Angular, un poderoso framework de desarrollo frontend.
 
-## Code scaffolding
+## Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular:** El frontend está construido con Angular, que proporciona una estructura robusta y modular para el desarrollo de aplicaciones web.
+- **Endpoints Spring Boot:** La aplicación consume endpoints implementados en Spring Boot para obtener datos y realizar operaciones en el backend.
+- **Otras Tecnologías:** Además de Angular y Spring Boot, se utilizan otras tecnologías como HTML, CSS, y  TypeScript para mejorar la funcionalidad y el estilo del juego.
 
-## Build
+## Instrucciones de Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Instalación:**
+   - Clona este repositorio: `[git clone https://tu-repositorio.gi](https://github.com/Camilo7777/juego-preguntas-frontend)t`
+   - Navega al directorio del proyecto: `cd JuegoPreguntasFrontend`
+   - Instala las dependencias: `npm install`
 
-## Running unit tests
+2. **Ejecución:**
+   - Inicia la aplicación: `ng serve`
+   - Abre tu navegador y ve a `http://localhost:4200/`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Contribuciones:**
+   - Si deseas contribuir al desarrollo, realiza un fork del repositorio y crea una rama para tus cambios.
+   - Después de realizar los cambios, crea una solicitud de extracción.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Agradecimientos
 
-## Further help
+Agradezco cualquier contribución, sugerencia o comentario que puedas tener. ¡Disfruta jugando y desarrollando!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+**Desarrollado por [Juan Camilo Escobar Campuzano]**
