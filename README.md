@@ -15,7 +15,7 @@ El objetivo de este proyecto es ofrecer una experiencia interactiva y atractiva 
 ## Instrucciones de Uso
 
 1. **Instalación:**
-   - Clona este repositorio: `[git clone https://tu-repositorio.gi](https://github.com/Camilo7777/juego-preguntas-frontend)t`
+   - Clona este repositorio: `[git clone https://tu-repositorio.gi](https://github.com/Camilo7777/juego-preguntas-frontendt)`
    - Navega al directorio del proyecto: `cd JuegoPreguntasFrontend`
    - Instala las dependencias: `npm install`
 
